@@ -2,6 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0px;
   padding: 0px;
+  word-spacing: 4px;
+  letter-spacing: 0.5px;
+  line-height: 1.2em;
 }
 
 .clearfix :after {
@@ -16,17 +19,17 @@ div {
 }
 
 .container {
-  width: 940px;
+  width: 1200px;
   margin: 0 auto;
 }
-
+/*---------------------------------HEADER*/
 header {
   background: url("../img/first-bg.jpg") no-repeat center top / cover;
-  padding-bottom: 160px;
+  padding-bottom: 150px;
 }
 
 .logo {
-  margin-top: 43px;
+  margin-top: 40px;
 }
 
 nav {
@@ -49,7 +52,7 @@ nav {
   text-decoration: none;
   margin-left: 42px;
   color: #d6d6d6;
-  font-size: 14px;
+  font-size: 17px;
   text-transform: uppercase;
 }
 
@@ -57,100 +60,91 @@ nav {
   color: #fff;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 180px;
+  margin-top: 140px;
 }
 .titels_1 {
   font-size: 32px;
+  margin-bottom: 60px;
 }
 .titels h1 {
   font-size: 65px;
   margin-top: 35px;
+  margin-bottom: 110px;
 }
 
 .button {
-  width: 240px;
-  background-color: #fed136;
-  text-align: center;
-  padding: 20px 0px;
-  display: block;
-  border-radius: 4px;
-  margin: 0 auto;
-  color: #484543;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 18px;
+	width: 240px;
+	background-color: #fed136;
+	text-align: center;
+	padding: 20px 0px;
+	display: block;
+	border-radius: 4px;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 18px;
+}
+.button a {
+	text-decoration: none ;
+	text-transform: uppercase;
+	color: #2b2727;
+}
+/*---------------------------------ABOUT*/
+.about {
+	background-color: #f7f7f7;
+	padding-bottom: 35px;
 }
 
-.service {
-  background-color: #fff;
+.text_about h3 {
+	text-align: center;
 }
 
 .titels_2 {
-  text-align: center;
-  padding-top: 120px;
-  padding-bottom: 80px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	margin-left: 450px;
+	display: inline-block;
 }
 
 .titels_2 h2 {
-  text-transform: uppercase;
-  color: #222;
-  font-weight: bold;
-  font-size: 40px;
-  padding: 0px;
-  margin: 0px;
+	text-transform: uppercase;
+	color: #222;
+	font-weight: bold;
+	font-size: 40px;
+	padding: 0px;
+	margin: 0px 0px 0px 40px;
+	display: inline-block;
 }
-
+  
 .titels_2 p {
-  color: #777;
-  font-size: 16px;
-  padding: 0px;
-  margin: 17px 0px 0px 0px;
-}
-.icons {
-  margin-bottom: 120px;
+	color: #777;
+	font-size: 16px;
+	padding: 0px;
+	margin: 17px 0px 0px 0px;
 }
 
-.icon {
-  width: 250px;
-  text-align: center;
-  display: inline-block;
-}
-.icon h3 {
-  font-size: 18px;
-  color: #222;
-}
-.icon p {
-  font-size: 14px;
-  color: #777;
+.leftimg{
+	float: left;
+	margin: 0px 30px 30px 0px;
 }
 
-.i1 {
-  float: left;
-}
-.i2 {
-  margin-left: 96px;
-}
-.i3 {
-  float: right;
+.urban {
+	margin-left: 560px;
 }
 
-.portfolio {
-  background-color: #f7f7f7;
-  padding-bottom: 135px;
+.cloud {
+	padding-left: 100px;
+	padding-right: 10px;
 }
 
-.img1 {
-  float: left;
-}
-.img2 {
-  margin-left: 35px;
-}
-.img3 {
-  float: right;
-  padding: 0px;
-  margin: 0px;
+#link {
+	text-decoration: none;
 }
 
+#link:hover{
+	text-decoration: none;
+	color: #fed136;
+}
+/*---------------------------------PORTFOLIO*/
 span {
   text-transform: uppercase;
 }
@@ -203,15 +197,85 @@ span {
   margin-top: 10px;
 }
 
-footer {
-  text-align: center;
-  padding-bottom: 30px;
-  padding-top: 20px;
+.yellow {
+	background-color: #fed136;
+	height: 4px;
+}
+/*---------------------------------WHY ME?*/
+.why {
+	background-color: #f7f7f759;
+	padding-bottom: 100px;
+}
+  
+.me {
+	float: right;
+	margin-top: 30px;
+	margin-right: 90px;
 }
 
-footer p,
-a {
-  display: inline-block;
+.flex_container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+.icon {
+	width: 380px;
+	text-align: center;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	
+}
+.icon h3 {
+	font-size: 18px;
+	color: #222;
+}
+.icon p {
+	font-size: 14px;
+	color: #777;
+}
+  
+.i1 {
+	float: left;
+}
+.i2 {
+	
+}
+.i3 {
+	float: right;
+}
+/*---------------------------------FOOTER*/
+footer {
+	background-color: #fed136;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+footer p {
+  display: block;
+  margin-bottom: 20px;
   text-decoration: none;
   color: #000;
+}
+
+footer a {
+	display: inline-block;
+	margin: 10px;
+	text-decoration: none;
+	color: #000;
+}
+
+#footer_icon {
+	margin: 0px 30px 0px 0px;
+	padding: 0px;
+}
+
+.margin {
+	margin-bottom: -5px;
+}
+.margin1 {
+	margin-bottom: -1px;
 }
