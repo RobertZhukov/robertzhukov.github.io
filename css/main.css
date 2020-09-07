@@ -151,6 +151,14 @@ nav {
   padding: 10px 0px;
 }
 
+.skills {
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 30px 0;
+	flex-wrap: wrap;
+	font-style: italic;
+}
+
 #header_menu {
   font-weight: 500;
   padding: 5px 10px;
@@ -159,7 +167,7 @@ nav {
   color: #000000;
   text-transform: uppercase;
   font-size: 22px;
-  background-color:#fed336d8;
+  background-color: #fed336d8;
 }
 
 #link {
@@ -413,6 +421,10 @@ footer a {
     margin-left: 10%;
   }
 
+  .story_item.todo {
+    padding-bottom: 60px;
+}
+
   .image {
     width: 30%;
     margin-top: 10px;
@@ -498,6 +510,10 @@ footer a {
     padding-bottom: 53px;
   }
 
+  .story_item.todo {
+    padding-bottom: 110px;
+  }
+
   .content {
     line-height: 1.3em;
     width: 200px;
@@ -528,8 +544,8 @@ footer a {
   }
 
   .titels_1 {
-	font-size: 26px;
-	line-height: 1.2em;
-	margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
   }
 }
