@@ -7,6 +7,11 @@ body {
   line-height: 1.2em;
 }
 
+a:hover {
+  text-decoration: none;
+  color: #343a40cc;
+}
+
 .clearfix :after {
   content: "";
   display: table;
@@ -152,11 +157,11 @@ nav {
 }
 
 .skills {
-	flex-direction: row;
-	justify-content: space-around;
-	margin: 30px 0;
-	flex-wrap: wrap;
-	font-style: italic;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px 0;
+  flex-wrap: wrap;
+  font-style: italic;
 }
 
 #header_menu {
@@ -309,6 +314,20 @@ footer a {
   margin-top: -3px;
 }
 
+/*Animation*/
+.animate__backInLeft {
+  --animate-duration: 2.5s;
+}
+.animate__backInRight {
+  --animate-duration: 3s;
+}
+.animate__flipInX {
+  --animate-duration: 5s;
+}
+.menu_mob.animate__flipInX {
+  --animate-duration: 3s;
+}
+
 /* Media */
 @media (max-width: 1199px) {
   .cloud {
@@ -423,7 +442,7 @@ footer a {
 
   .story_item.todo {
     padding-bottom: 60px;
-}
+  }
 
   .image {
     width: 30%;
@@ -502,6 +521,12 @@ footer a {
 }
 
 @media (max-width: 432px) {
+  .titels h1 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
   .text_about h3 {
     font-size: 22px;
   }
