@@ -1,10 +1,14 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
   word-spacing: 4px;
   letter-spacing: 0.5px;
   line-height: 1.2em;
+}
+
+h1, h2, h3, .menu, .menu_mob, .titels_1, .button {
+	font-family: initial;
 }
 
 a:hover {
@@ -92,6 +96,10 @@ nav {
   margin: 0 auto;
   font-weight: bold;
   font-size: 18px;
+}
+
+.button.colors:hover {
+    background-color: #fed136b5;
 }
 
 .button a {
@@ -524,7 +532,7 @@ footer a {
 @media (max-width: 432px) {
   .titels h1 {
     font-size: 40px;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 30px;
   }
 
@@ -565,8 +573,8 @@ footer a {
 
   .titels h1 {
     font-size: 38px;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    margin-top: 0px;
+    margin-bottom: 15px;
   }
 
   .titels_1 {
